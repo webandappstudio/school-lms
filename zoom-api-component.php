@@ -24,7 +24,7 @@ class ZoomComponent extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * Fetch meeting Participants
      * @param {*} url //Endpoint url
      * @param {*} token //Authentication Token
      * @param {*} meetingId //Id of the meeting to be retrieved
