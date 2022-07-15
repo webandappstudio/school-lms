@@ -30,7 +30,7 @@ class s3Component extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * S3 Put object into a bucket
      * @param {*} s3 //Object to be stored
      * @param {*} s3_bucket //Bucket name
      * @param {*} s3_filename //Destination filename to store the object/file
@@ -54,7 +54,7 @@ class s3Component extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * Fetch and preview an image
      * @param {*} id //Database image id
      * @param {*} model //Database model to fetch the image from
      * @param {*} field_name //filter field to search for files/file types
@@ -97,7 +97,7 @@ class s3Component extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * Upload file/folder into a bucket
      * @param {*} S3Object //S3 Object to use to handle the connection/data
      * @param {*} dir //Local directory where the file is located
      * @param {*} S3_folder //Remote Directory to save the file
@@ -120,7 +120,7 @@ class s3Component extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * Delete all files/directories inside a given path
      * @param {*} dir //Directory Full path to be removed
      * @param {*} remove //Removal protection override
      * @returns object 
@@ -141,7 +141,7 @@ class s3Component extends Component
     }
 
     /**
-     * S3 API connection/credentials handler
+     * Check if file/folder exists
      * @param {*} dirPath //Full path+file to check if it exists
      * @returns object 
      */
